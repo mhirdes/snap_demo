@@ -1,0 +1,14 @@
+#header,
+#nav,
+#content,
+#footer {
+  display: none;
+}
+@media screen and (min-width: 480px) {
+  #header,
+  #nav,
+  #content,
+  #footer {
+    display: block;
+  }
+}

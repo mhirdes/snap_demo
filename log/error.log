@@ -1,0 +1,257 @@
+[24/Oct/2014:15:54:44 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[24/Oct/2014:15:56:03 +0200] Server.httpServe: SHUTDOWN
+[24/Oct/2014:15:56:03 +0200] Server.httpServe: BACKEND STOPPED
+[24/Oct/2014:15:57:33 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[24/Oct/2014:15:59:31 +0200] Server.httpServe: SHUTDOWN
+[24/Oct/2014:15:59:31 +0200] Server.httpServe: BACKEND STOPPED
+[24/Oct/2014:16:00:11 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[24/Oct/2014:16:01:10 +0200] Server.httpServe: SHUTDOWN
+[24/Oct/2014:16:01:10 +0200] Server.httpServe: BACKEND STOPPED
+[24/Oct/2014:16:17:38 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[24/Oct/2014:16:22:31 +0200] Server.httpServe: SHUTDOWN
+[24/Oct/2014:16:22:31 +0200] Server.httpServe: BACKEND STOPPED
+[14/Nov/2014:10:33:01 +0100] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[14/Nov/2014:10:36:20 +0100] Server.httpServe: SHUTDOWN
+[14/Nov/2014:10:36:20 +0100] Server.httpServe: BACKEND STOPPED
+[14/Nov/2014:11:40:53 +0100] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[14/Nov/2014:11:40:53 +0100] Error on startup: 
+bind: resource busy (Address already in use)
+[14/Nov/2014:11:40:57 +0100] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[14/Nov/2014:11:40:57 +0100] Error on startup: 
+bind: resource busy (Address already in use)
+[14/Nov/2014:11:41:02 +0100] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[14/Nov/2014:11:41:02 +0100] Error on startup: 
+bind: resource busy (Address already in use)
+[14/Nov/2014:11:44:54 +0100] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[14/Nov/2014:12:01:19 +0100] During processing of request from 127.0.0.1:52146
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52146\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+
+/home/intellibook/snaps/default/snaplets/heist/templates/base.tpl: apply tag cannot find template "_head"
+/home/intellibook/snaps/default/snaplets/heist/templates/base.tpl: apply tag cannot find template "_head"
+/home/intellibook/snaps/default/snaplets/heist/templates/base.tpl: apply tag cannot find template "_head"
+/home/intellibook/snaps/default/snaplets/heist/templates/base.tpl: apply tag cannot find template "_head"
+[14/Nov/2014:12:44:43 +0100] During processing of request from 127.0.0.1:52389
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52389\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+
+/home/intellibook/snaps/default/snaplets/heist/templates/new_user.tpl: apply tag cannot find template "base"
+/home/intellibook/snaps/default/snaplets/heist/templates/inc/base.tpl: apply tag cannot find template "inc/head"
+/home/intellibook/snaps/default/snaplets/heist/templates/inc/base.tpl: apply tag cannot find template "inc/head"
+/home/intellibook/snaps/default/snaplets/heist/templates/login.tpl: apply tag cannot find template "base"
+[14/Nov/2014:12:45:29 +0100] During processing of request from 127.0.0.1:52389
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52389\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+
+/home/intellibook/snaps/default/snaplets/heist/templates/new_user.tpl: apply tag cannot find template "base"
+/home/intellibook/snaps/default/snaplets/heist/templates/inc/base.tpl: apply tag cannot find template "inc/head"
+/home/intellibook/snaps/default/snaplets/heist/templates/inc/base.tpl: apply tag cannot find template "inc/head"
+/home/intellibook/snaps/default/snaplets/heist/templates/login.tpl: apply tag cannot find template "base"
+[14/Nov/2014:12:45:30 +0100] During processing of request from 127.0.0.1:52389
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52389\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+
+/home/intellibook/snaps/default/snaplets/heist/templates/new_user.tpl: apply tag cannot find template "base"
+/home/intellibook/snaps/default/snaplets/heist/templates/inc/base.tpl: apply tag cannot find template "inc/head"
+/home/intellibook/snaps/default/snaplets/heist/templates/inc/base.tpl: apply tag cannot find template "inc/head"
+/home/intellibook/snaps/default/snaplets/heist/templates/login.tpl: apply tag cannot find template "base"
+[14/Nov/2014:13:35:35 +0100] During processing of request from 127.0.0.1:52677
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52677\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Main.hs:116:18:
+    Not in scope: type constructor or class `Splice'
+src/Main.hs:116:25:
+    Not in scope: type constructor or class `AppHandler'
+    Perhaps you meant `Handler' (imported from Snap.Snaplet)
+src/Main.hs:118:13: Not in scope: `getParamNode'
+src/Main.hs:119:16: Not in scope: `nodeText'
+src/Main.hs:120:13: Not in scope: data constructor `TextNode'
+[14/Nov/2014:13:38:06 +0100] During processing of request from 127.0.0.1:52741
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52741\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:89:18:
+    Not in scope: type constructor or class `Splice'
+    Perhaps you meant one of these:
+      `I.Splice' (imported from Heist.Interpreted),
+      `Splices' (imported from Heist), `SplicesM' (imported from Heist)
+src/Site.hs:92:16: Not in scope: `nodeText'
+src/Site.hs:93:13: Not in scope: data constructor `TextNode'
+[14/Nov/2014:13:38:47 +0100] During processing of request from 127.0.0.1:52741
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52741\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:92:16: Not in scope: `nodeText'
+src/Site.hs:93:13: Not in scope: data constructor `TextNode'
+[14/Nov/2014:13:40:13 +0100] During processing of request from 127.0.0.1:52774
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52774\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:91:31:
+    Not in scope: `lift'
+    Perhaps you meant `liftA' (imported from Control.Applicative)
+src/Site.hs:93:37: Not in scope: `getAttribute'
+src/Site.hs:93:71: Not in scope: `decodeUtf8'
+src/Site.hs:94:42: Not in scope: `setAttribute'
+src/Site.hs:98:28: Not in scope: data constructor `Element'
+src/Site.hs:98:50: Not in scope: `fromMaybe'
+src/Site.hs:98:66: Not in scope: `getAttribute'
+src/Site.hs:98:96: Not in scope: data constructor `TextNode'
+src/Site.hs:98:106: Not in scope: `nodeText'
+src/Site.hs:99:41: Not in scope: data constructor `Element'
+[14/Nov/2014:13:41:57 +0100] During processing of request from 127.0.0.1:52781
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52781\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:91:31:
+    Not in scope: `lift'
+    Perhaps you meant `liftA' (imported from Control.Applicative)
+src/Site.hs:93:37: Not in scope: `getAttribute'
+src/Site.hs:93:71: Not in scope: `decodeUtf8'
+src/Site.hs:94:42: Not in scope: `setAttribute'
+src/Site.hs:98:28: Not in scope: data constructor `Element'
+src/Site.hs:98:50: Not in scope: `fromMaybe'
+src/Site.hs:98:66: Not in scope: `getAttribute'
+src/Site.hs:98:96: Not in scope: data constructor `TextNode'
+src/Site.hs:98:106: Not in scope: `nodeText'
+src/Site.hs:99:41: Not in scope: data constructor `Element'
+[14/Nov/2014:13:43:23 +0100] During processing of request from 127.0.0.1:52782
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52782\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:27:8:
+    Could not find module `Control.Monad.Trans.Class'
+    It is a member of the hidden package `transformers-0.4.1.0'.
+    It is a member of the hidden package `transformers-0.3.0.0'.
+    Use -v to see a list of the files searched for.
+[14/Nov/2014:13:58:51 +0100] During processing of request from 127.0.0.1:52843
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52843\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:27:8:
+    Could not find module `Control.Monad.Trans.Class'
+    It is a member of the hidden package `transformers-0.4.1.0'.
+    It is a member of the hidden package `transformers-0.3.0.0'.
+    Use -v to see a list of the files searched for.
+[14/Nov/2014:14:00:26 +0100] During processing of request from 127.0.0.1:52872
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52872\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:27:8:
+    Could not find module `Control.Monad.Trans.Class'
+    It is a member of the hidden package `transformers-0.4.1.0'.
+    It is a member of the hidden package `transformers-0.3.0.0'.
+    Use -v to see a list of the files searched for.
+[14/Nov/2014:14:00:27 +0100] During processing of request from 127.0.0.1:52872
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52872\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:27:8:
+    Could not find module `Control.Monad.Trans.Class'
+    It is a member of the hidden package `transformers-0.4.1.0'.
+    It is a member of the hidden package `transformers-0.3.0.0'.
+    Use -v to see a list of the files searched for.
+[14/Nov/2014:14:00:27 +0100] During processing of request from 127.0.0.1:52872
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52872\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:27:8:
+    Could not find module `Control.Monad.Trans.Class'
+    It is a member of the hidden package `transformers-0.4.1.0'.
+    It is a member of the hidden package `transformers-0.3.0.0'.
+    Use -v to see a list of the files searched for.
+[14/Nov/2014:14:02:17 +0100] During processing of request from 127.0.0.1:52913
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52913\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:27:8:
+    Could not find module `Control.Monad.Trans.Class'
+    It is a member of the hidden package `transformers-0.4.1.0'.
+    It is a member of the hidden package `transformers-0.3.0.0'.
+    Use -v to see a list of the files searched for.
+[14/Nov/2014:14:02:18 +0100] During processing of request from 127.0.0.1:52913
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52913\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:27:8:
+    Could not find module `Control.Monad.Trans.Class'
+    It is a member of the hidden package `transformers-0.4.1.0'.
+    It is a member of the hidden package `transformers-0.3.0.0'.
+    Use -v to see a list of the files searched for.
+[14/Nov/2014:14:02:18 +0100] During processing of request from 127.0.0.1:52914
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52914\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Pragma: no-cache\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: no-cache\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:27:8:
+    Could not find module `Control.Monad.Trans.Class'
+    It is a member of the hidden package `transformers-0.4.1.0'.
+    It is a member of the hidden package `transformers-0.3.0.0'.
+    Use -v to see a list of the files searched for.
+[14/Nov/2014:14:02:19 +0100] During processing of request from 127.0.0.1:52915
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52915\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Pragma: no-cache\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: no-cache\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:27:8:
+    Could not find module `Control.Monad.Trans.Class'
+    It is a member of the hidden package `transformers-0.4.1.0'.
+    It is a member of the hidden package `transformers-0.3.0.0'.
+    Use -v to see a list of the files searched for.
+[14/Nov/2014:14:04:21 +0100] During processing of request from 127.0.0.1:52920
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:52920\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Compile errors:
+
+src/Site.hs:27:8:
+    Could not find module `Control.Monad.Trans.Class'
+    It is a member of the hidden package `transformers-0.4.1.0'.
+    It is a member of the hidden package `transformers-0.3.0.0'.
+    Use -v to see a list of the files searched for.
+[14/Nov/2014:16:23:36 +0100] During processing of request from 127.0.0.1:53571
+request:
+"Request <\n    server-name: 0.0.0.0\n    remote: 127.0.0.1:53571\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:33.0) Gecko/20100101 Firefox/33.0\n Connection: keep-alive\n Host: 0.0.0.0:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n Referer: http://0.0.0.0:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: sub_page\n    contextpath: /\n    URI: /sub_page\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+
+Initializer threw an exception...
+/home/intellibook/snaps/default/snaplets/heist/templates/sub_page.tpl "/home/intellibook/snaps/default/snaplets/heist/templates/sub_page.tpl" (line 10, column 13):
+unexpected ">"
+mismatched tags: </ifLoggedIn> found inside <div> tag
+
+...but before it died it generated the following output:
+Initializing app @ /
+Initializing heist @ /
+
+
